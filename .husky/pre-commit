@@ -1,2 +1,2 @@
-npm run updatetophreadme
+npm run precommit
 git update-index --again

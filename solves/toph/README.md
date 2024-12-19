@@ -2,21 +2,22 @@
 
 ## Stats
 
-### Amount of solves
+### Amount of successful solves
 
-| Language | Solves |
-| -------- | ------ |
-| c        | 2      |
-| cpp      | 2      |
-| go       | 2      |
-| java     | 2      |
-| js       | 2      |
-| kt       | 2      |
-| lua      | 2      |
-| py       | 2      |
-| rs       | 2      |
-| swift    | 2      |
-| Total    | 20     |
+|       Language      | Solves |
+| :-----------------: | :----: |
+|          c          |    2   |
+|         cpp         |    2   |
+|          go         |    2   |
+|         java        |    2   |
+|          js         |    2   |
+|          kt         |    2   |
+|         lua         |    2   |
+|          py         |    2   |
+|          rs         |    2   |
+|        swift        |    2   |
+|  Total submissions  |   20   |
+| Total unique solved |    2   |
 
 ### Problems
 

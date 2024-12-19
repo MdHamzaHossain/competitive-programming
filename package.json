@@ -13,7 +13,7 @@
   "scripts": {
     "tsc": "tsc",
     "createfolder": "tsc && node dist/addEntry.js",
-    "updatetophreadme": "tsc && node dist/toph/tophUpdateMD.js",
+    "precommit": "tsc && node dist/preCommitHook.js",
     "prepare": "husky"
   },
   "devDependencies": {

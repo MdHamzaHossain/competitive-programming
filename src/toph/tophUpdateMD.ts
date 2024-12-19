@@ -4,8 +4,7 @@ import { markdownTable } from "markdown-table";
 import FastGlob from "fast-glob";
 import { supportedLanguages } from "../config.js";
 
-main();
-async function main() {
+export async function updateTophMd() {
     const pathToToph = join(process.cwd(), "solves", "toph");
     // The list of languages I use
     const listOfExt = supportedLanguages;
@@ -18,13 +17,13 @@ async function main() {
     const fileMapper = new Map<string, string[]>();
 
     const problemTrackerArray: string[][] = [["Problem name", ...listOfExt]];
-
+    let maxIndex = 0;
     for (const folder of mainFolders) {
         const file = folder.split("/").at(-2) || "";
         const matchedDir = file.match(titleAndIndexMatcherRegex);
         const { Index, Title } = matchedDir?.groups || {};
         if (!Index || !Title) continue;
-
+        maxIndex = Math.max(maxIndex, +Index);
         const fileExtension = folder.split(".").pop() || "";
         const extensionIndex = listOfExt.indexOf(fileExtension);
         if (extensionIndex < 0) continue;
@@ -53,12 +52,13 @@ async function main() {
         counterArray.push([a, "" + fileObj[a]]);
         totalCounter += fileObj[a];
     });
-    counterArray.push(["Total", "" + totalCounter]);
+    counterArray.push(["Total submissions", "" + totalCounter]);
+    counterArray.push(["Total unique solved", "" + maxIndex]);
 
     const completeString =
-        "### Amount of solves" +
+        "### Amount of successful solves" +
         "\n\n" +
-        markdownTable(counterArray) +
+        markdownTable(counterArray, { align: "cc" }) +
         "\n\n" +
         "### Problems" +
         "\n\n" +
@@ -72,6 +72,7 @@ async function main() {
     const oldReadMe = await fsp.readFile(join(pathToToph, "README.md"), { encoding: "utf-8" });
     const oldReadMeData = oldReadMe.split("## Stats")[0] || "";
     await fsp.writeFile(join(pathToToph, "README.md"), oldReadMeData + "## Stats\n\n" + completeString);
+    return counterArray;
 }
 function formattedTitleToURL(s: string): string {
     return "https://toph.co/p/" + s.toLowerCase().replace(/ /gim, "-");
