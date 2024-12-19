@@ -17,7 +17,7 @@ const compat = new FlatCompat({
 
 export default [
     {
-        ignores: ["!**/src"],
+        ignores: ["**/solves"],
     },
     ...compat.extends("eslint:recommended", "plugin:@typescript-eslint/recommended", "plugin:prettier/recommended"),
     {

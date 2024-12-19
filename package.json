@@ -12,8 +12,8 @@
   },
   "scripts": {
     "tsc": "tsc",
-    "createfolder": "tsc && node dist/createFolder.js",
-    "updatetophreadme": "tsc && node dist/tophUpdateMD.js",
+    "createfolder": "tsc && node dist/addEntry.js",
+    "updatetophreadme": "tsc && node dist/toph/tophUpdateMD.js",
     "prepare": "husky"
   },
   "devDependencies": {

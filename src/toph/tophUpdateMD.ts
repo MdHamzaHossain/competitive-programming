@@ -2,7 +2,7 @@ import * as fsp from "fs/promises";
 import { join } from "path";
 import { markdownTable } from "markdown-table";
 import FastGlob from "fast-glob";
-import { supportedLanguages } from "./config.js";
+import { supportedLanguages } from "../config.js";
 
 main();
 async function main() {
@@ -14,7 +14,7 @@ async function main() {
     const fileObj: { [index: string]: number } = {};
     listOfExt.forEach((a) => (fileObj[a] = 0));
 
-    const mainFolders = await FastGlob("toph/**/**");
+    const mainFolders = await FastGlob("solves/toph/**/**");
     const fileMapper = new Map<string, string[]>();
 
     const problemTrackerArray: string[][] = [["Problem name", ...listOfExt]];
@@ -39,7 +39,7 @@ async function main() {
                 )
                 .get(hyperLinked)!;
 
-        mapEntry[extensionIndex] = `[${fileExtension}](<../${folder}>)`;
+        mapEntry[extensionIndex] = `[${fileExtension}](<../../${folder}>)`;
         fileObj[fileExtension]++;
     }
     for (const [name, ind] of fileMapper.entries()) {
