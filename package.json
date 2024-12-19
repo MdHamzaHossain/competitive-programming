@@ -12,7 +12,7 @@
   },
   "scripts": {
     "tsc": "tsc",
-    "createfolder": "tsc && node dist/addEntry.js",
+    "addentry": "tsc && node dist/addEntry.js",
     "precommit": "tsc && node dist/preCommitHook.js",
     "prepare": "husky"
   },
