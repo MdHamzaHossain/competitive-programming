@@ -37,7 +37,6 @@ export async function handleCodeforces(url: string, r1: readline.Interface) {
     const foundProblem = problems.find((a) => contestId == "" + a.contestId && a.index && a.index == contestIndex);
 
     if (!foundProblem) throw new Error("This problem has no entry");
-    console.log(foundProblem);
 
     // const titleAndIndexMatcherRegex = /(?<Index>\d+)\. (?<Title>.+)/;
     // const title = url.split("/")?.pop() || "";

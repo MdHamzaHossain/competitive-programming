@@ -32,5 +32,30 @@ cd compProHamza
 ```sh
 npm install
 npm run addentry
-
 ```
+
+## Stats
+
+### Per Platform
+
+|  Platform  | Total Submissions | Total Unique Solved |
+| :--------: | :---------------: | :-----------------: |
+| codeforces |         4         |          4          |
+|    toph    |         20        |          2          |
+
+### Per Language
+
+|       Language      | Solves |
+| :-----------------: | :----: |
+|          c          |    2   |
+|         cpp         |    5   |
+|          go         |    2   |
+|         java        |    2   |
+|          js         |    3   |
+|          kt         |    2   |
+|         lua         |    2   |
+|          py         |    2   |
+|          rs         |    2   |
+|        swift        |    2   |
+|  Total submissions  |   24   |
+| Total unique solved |    6   |
