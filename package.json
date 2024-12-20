@@ -4,6 +4,7 @@
   "description": "My solutions for toph questions",
   "main": "dist/index.ts",
   "dependencies": {
+    "dotenv": "^16.4.7",
     "fast-glob": "^3.3.2",
     "husky": "^9.1.7",
     "markdown-table": "^3.0.4",
