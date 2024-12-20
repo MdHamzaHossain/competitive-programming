@@ -40,22 +40,22 @@ npm run addentry
 
 |  Platform  | Total Submissions | Total Unique Solved |
 | :--------: | :---------------: | :-----------------: |
-| codeforces |         4         |          4          |
+| codeforces |         13        |          7          |
 |    toph    |        154        |          86         |
 
 ### Per Language
 
 |       Language      | Solves |
 | :-----------------: | :----: |
-|          c          |   12   |
-|         cpp         |   74   |
-|          go         |    7   |
-|         java        |    2   |
-|          js         |   26   |
-|          kt         |    4   |
+|          c          |   13   |
+|         cpp         |   77   |
+|          go         |    8   |
+|         java        |    3   |
+|          js         |   27   |
+|          kt         |    5   |
 |         lua         |    2   |
-|          py         |   27   |
+|          py         |   28   |
 |          rs         |    2   |
 |        swift        |    2   |
-|  Total submissions  |   158  |
-| Total unique solved |   90   |
+|  Total submissions  |   167  |
+| Total unique solved |   93   |
