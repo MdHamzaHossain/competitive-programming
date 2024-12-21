@@ -38,19 +38,10 @@ export async function handleCodeforces(url: string, r1: readline.Interface) {
 
     if (!foundProblem) throw new Error("This problem has no entry");
 
-    // const titleAndIndexMatcherRegex = /(?<Index>\d+)\. (?<Title>.+)/;
-    // const title = url.split("/")?.pop() || "";
-    // if (!title) process.exit();
     const formattedTitle = `${foundProblem.contestId}${foundProblem.index && `-${foundProblem.index}`}${foundProblem.name && `-${foundProblem.name}`}`;
 
     const readDir = await fsp.readdir(pathToCodeforces);
-    // // Take out the readme
-    // readDir.pop();
     const foundDir = readDir.includes(formattedTitle);
-    // .find((a) => {
-    //     return formattedTitle === a;
-    // })
-    // ?.trim();
 
     if (foundDir) {
         console.log("You already have an entry with the same title. The missing language variants will be added");
@@ -60,15 +51,8 @@ export async function handleCodeforces(url: string, r1: readline.Interface) {
         const existingExtensions = files.map((a) => a.split(".").pop());
         listOfExt = listOfExt.filter((a) => !existingExtensions.includes(a)).sort();
     }
-    // const matchedDir = (foundDir || readDir.at(-1))?.match(titleAndIndexMatcherRegex);
-    // const { Index } = matchedDir?.groups || {};
-    // const indexNum = +Index || 0;
-    // //const indexNum = a.at(-1)?.match(/(?<Index>\d+)\. (<Title>?.+)/)?.[0] || 0;
-    const pathToQuestion = join(
-        pathToCodeforces,
-        formattedTitle,
-        //     `${+indexNum + (foundDir ? 0 : 1)}`.padStart(4, "0") + ". " + formattedTitle,
-    );
+
+    const pathToQuestion = join(pathToCodeforces, formattedTitle);
 
     await fsp.mkdir(`${pathToQuestion}`, { recursive: true });
     const comments = await r1.question("Add any additional comments: \n");
@@ -110,9 +94,3 @@ export async function handleCodeforces(url: string, r1: readline.Interface) {
     );
     console.log("\n\n\n");
 }
-// function formatTitleString(str: string): string {
-//     return str[0].toUpperCase() + str.slice(1).replace(/-(?<T>.)/g, (v: string) => v.replace("-", " ").toUpperCase());
-// }
-// function codeforcesURLToTitle(url: string): string {
-//     return `${url.split("/").at(-2) || ""}${url.split("/").at(-1) || ""}`;
-// }
