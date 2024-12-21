@@ -12,10 +12,8 @@
 |         java        |    1   |
 |          js         |    2   |
 |          kt         |    1   |
-|         lua         |    0   |
 |          py         |    1   |
 |          rs         |    0   |
-|        swift        |    0   |
 |  Total submissions  |   13   |
 | Total unique solved |    7   |
 

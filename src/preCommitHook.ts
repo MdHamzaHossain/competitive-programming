@@ -16,7 +16,7 @@ async function main() {
         platformChart.push([platforms[i], a.at(-2)?.[1] || "0", a.at(-1)?.[1] || "0"]);
     });
     platformData[0].forEach(([k], i) => {
-        const totalAmount = platformData.reduce((a, b) => a + +b[i][1], 0);
+        const totalAmount = platformData.reduce((a, b) => a + +b[i][1] || 0, 0);
         langChart[i + 1] = [k, "" + totalAmount];
     });
     const oldReadMe = await fsp.readFile(join(process.cwd(), "README.md"), { encoding: "utf-8" });

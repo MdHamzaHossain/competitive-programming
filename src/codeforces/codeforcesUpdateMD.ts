@@ -78,7 +78,10 @@ export async function updateCodeforcesMd() {
     const completeString =
         "### Amount of successful solves" +
         "\n\n" +
-        markdownTable(counterArray, { align: "cc" }) +
+        markdownTable(
+            counterArray.filter((a) => !["swift", "lua"].includes(a[0])),
+            { align: "cc" },
+        ) +
         "\n\n" +
         "### Problems" +
         "\n\n" +
