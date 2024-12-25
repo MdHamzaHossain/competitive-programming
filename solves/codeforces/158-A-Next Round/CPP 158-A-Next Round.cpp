@@ -1,0 +1,35 @@
+#define ll long long
+#define ull unsigned long long
+#define ulli unsigned long long int
+#define b2e(a) a.begin(), a.end()
+#define e2b(a) a.rbegin(), a.rend()
+#define forI(i, a, b) for (int i = a; i <= b; i++)
+#define rforI(i, a, b) for (int i = a; i >= b; i--)
+#define forN(i, b) for (int i = 0; i < b; i++)
+#define rforN(i, a, b) for (int i = a; i > b; i--)
+#define nTimes(i, n) for (int i = 1; i <= n; i++)
+#define testCase                         \
+    int testCaseAmount, currentTestCase; \
+    cin >> testCaseAmount;               \
+    for (currentTestCase = 1; currentTestCase <= testCaseAmount; currentTestCase++)
+#define caseCout(i) cout << "Case " << currentTestCase << ": " << i << endl;
+#include <bits/stdc++.h>
+using namespace std;
+int main()
+{
+
+    int n, k;
+    cin >> n >> k;
+    int arr[n];
+    forN(i, n)
+    {
+        cin >> arr[i];
+    }
+    int count = 0;
+    forN(i, n)
+    {
+        if ((arr[i] != 0) && arr[i] >= arr[k - 1])
+            count++;
+    }
+    cout << count << endl;
+}
