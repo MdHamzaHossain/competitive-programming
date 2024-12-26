@@ -11,13 +11,18 @@ export interface CodeforcesProblemInterface {
     rating: number;
     tags: string[];
 }
+let problemsCache: CodeforcesProblemInterface[] | undefined = undefined;
 export async function fetchCodeforcesData(): Promise<CodeforcesProblemInterface[] | undefined> {
+    if (problemsCache) {
+        return problemsCache;
+    }
     const jsonReq = await (
         await fetch("https://codeforces.com/api/problemset.problems", { method: "GET" }).catch(() => undefined)
     )
         ?.json()
         .catch(() => undefined);
     const problems: CodeforcesProblemInterface[] = jsonReq?.result?.problems;
+    if (problems) problemsCache = problems;
     return problems;
 }
 

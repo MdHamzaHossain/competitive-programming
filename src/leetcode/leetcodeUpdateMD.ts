@@ -3,38 +3,39 @@ import { join } from "path";
 import { markdownTable } from "markdown-table";
 import FastGlob from "fast-glob";
 import { supportedLanguages } from "../config.js";
-import { CodeforcesProblemInterface, fetchCodeforcesData } from "./codeforcesHandler.js";
+import { fetchLeetcodeData, LeetcodeQuestion } from "./leetcodeHandler.js";
 
-export async function updateCodeforcesMd() {
-    const problems = await fetchCodeforcesData().catch(() => undefined);
-    if (!problems) throw new Error("Problem fetching codeforces data");
-    const pathToCodeforces = join(process.cwd(), "solves", "codeforces");
+export async function updateLeetcodeMd() {
+    const problems = await fetchLeetcodeData().catch(() => undefined);
+
+    if (!problems) throw new Error("Problem fetching leetcode data");
+    const pathToLeetcode = join(process.cwd(), "solves", "leetcode");
     // The list of languages I use
     const listOfExt = supportedLanguages;
-    const titleAndIndexMatcherRegex = /(?<contestID>\d+)(?:-(?<contestIndex>[A-Za-z0-9]+))?-(?<ProbName>.+)/;
+    const titleAndIndexMatcherRegex = /(?<leetIndex>\d+)_(?:(?<leetProbSlug>.+))/;
 
     const fileObj: { [index: string]: number } = {};
     listOfExt.forEach((a) => (fileObj[a] = 0));
 
-    const mainFolders = await FastGlob("solves/codeforces/**/**");
+    const mainFolders = await FastGlob("solves/leetcode/**/**");
     const fileMapper = new Map<string, string[]>();
-    const infoMapper = new Map<string, Pick<CodeforcesProblemInterface, "rating" | "tags">>();
+    const infoMapper = new Map<string, Pick<LeetcodeQuestion, "difficulty" | "topicTags">>();
 
-    const problemTrackerArray: string[][] = [["Problem name", "Rating", "Tags", ...listOfExt]];
+    const problemTrackerArray: string[][] = [["Problem name", "Difficulty", "Tags", ...listOfExt]];
     let maxIndex = 0;
     for (const folder of mainFolders) {
         const file = folder.split("/").at(-2) || "";
         const matchedDir = file.match(titleAndIndexMatcherRegex);
-        const { contestID, contestIndex } = matchedDir?.groups || {};
-        if (!contestID) continue;
+        const { leetProbSlug } = matchedDir?.groups || {};
+        if (!leetProbSlug) continue;
         maxIndex = Math.max(maxIndex, +0);
         const fileExtension = folder.split(".").pop() || "";
         const extensionIndex = listOfExt.indexOf(fileExtension);
         if (extensionIndex < 0) continue;
-        const url = formattedTitleToURL(contestID, contestIndex);
+        const url = formattedTitleToURL(leetProbSlug);
         const hyperLinked = `[${file}](${url})`;
 
-        const foundProblem = problems.find((a) => contestID == "" + a.contestId && a.index && a.index == contestIndex);
+        const foundProblem = problems.find((a) => leetProbSlug == a.titleSlug);
 
         if (!foundProblem) throw new Error("This problem has no entry");
 
@@ -50,16 +51,16 @@ export async function updateCodeforcesMd() {
         mapEntry[extensionIndex] = `[${fileExtension}](<../../${folder}>)`;
         fileObj[fileExtension]++;
         if (!infoMapper.get(hyperLinked))
-            infoMapper.set(hyperLinked, { rating: foundProblem.rating, tags: foundProblem.tags });
+            infoMapper.set(hyperLinked, { difficulty: foundProblem.difficulty, topicTags: foundProblem.topicTags });
     }
     for (const [name, ind] of fileMapper.entries()) {
         const info = infoMapper.get(name);
         if (!info) throw new Error("Info not found");
         const resultArray: string[] = [
             name,
-            "" + info.rating,
+            info.difficulty,
             //info.tags.map((a) => `• ${a}`).join("<br>"),
-            info.tags.join(", "),
+            info.topicTags.map((a) => a.name).join(", "),
             ...ind.map((a) => a || "❎"),
         ];
         problemTrackerArray.push(resultArray);
@@ -78,7 +79,9 @@ export async function updateCodeforcesMd() {
         "### Amount of successful solves" +
         "\n\n" +
         markdownTable(
-            counterArray.filter((a) => !["swift", "lua"].includes(a[0]) || a[1] != "0"),
+            //TODO check if it has any lang constraints
+            // counterArray.filter((a) => !["swift", "lua"].includes(a[0])),
+            counterArray.filter((a) => a[1] != "0"),
             { align: "cc" },
         ) +
         "\n\n" +
@@ -91,14 +94,12 @@ export async function updateCodeforcesMd() {
         ) +
         "\n";
 
-    const oldReadMe = await fsp.readFile(join(pathToCodeforces, "README.md"), { encoding: "utf-8" });
+    const oldReadMe = await fsp.readFile(join(pathToLeetcode, "README.md"), { encoding: "utf-8" });
     const oldReadMeData = oldReadMe.split("## Stats")[0] || "";
-    await fsp.writeFile(join(pathToCodeforces, "README.md"), oldReadMeData + "## Stats\n\n" + completeString);
+    await fsp.writeFile(join(pathToLeetcode, "README.md"), oldReadMeData + "## Stats\n\n" + completeString);
     return counterArray;
-    /*
-
-    */
 }
-function formattedTitleToURL(contestId: string, contestIndex?: string) {
-    return "https://codeforces.com/problemset/problem/" + contestId + (contestIndex && `/${contestIndex}`);
+
+function formattedTitleToURL(titleSlug: string) {
+    return "https://leetcode.com/problems/" + titleSlug;
 }
