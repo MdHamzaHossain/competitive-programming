@@ -13,7 +13,11 @@ async function main() {
 
     platformData.forEach((a, i) => {
         a.shift();
-        platformChart.push([platforms[i], a.at(-2)?.[1] || "0", a.at(-1)?.[1] || "0"]);
+        platformChart.push([
+            `[${platforms[i]}](<./solves/${platforms[i]}>)`,
+            a.at(-2)?.[1] || "0",
+            a.at(-1)?.[1] || "0",
+        ]);
     });
     platformData[0].forEach(([k], i) => {
         const totalAmount = platformData.reduce((a, b) => a + +b[i][1] || 0, 0);

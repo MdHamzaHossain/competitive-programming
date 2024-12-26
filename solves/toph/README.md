@@ -7,7 +7,7 @@
 |       Language      | Solves |
 | :-----------------: | :----: |
 |          c          |   13   |
-|         cpp         |   71   |
+|         cpp         |   72   |
 |          go         |    7   |
 |         java        |    2   |
 |          js         |   25   |
@@ -16,8 +16,8 @@
 |          py         |   27   |
 |          rs         |    2   |
 |        swift        |    2   |
-|  Total submissions  |   155  |
-| Total unique solved |   86   |
+|  Total submissions  |   156  |
+| Total unique solved |   87   |
 
 ### Problems
 
@@ -109,3 +109,4 @@
 | [0084. Oh No Classes](https://toph.co/p/oh-no-classes)                                                       | ❎                                                                                                | [cpp](<../../solves/toph/0084. Oh No Classes/CPP Oh No Classes.cpp>)                                   | ❎                                                                         | ❎                                                                   | ❎                                                                                                                       | ❎                                                                                         | ❎                                                                | ❎                                                                                           | ❎                                                             | ❎                                                                      |
 | [0085. Sum Equals Lcm](https://toph.co/p/sum-equals-lcm)                                                     | ❎                                                                                                | [cpp](<../../solves/toph/0085. Sum Equals Lcm/CPP Sum Equals Lcm.cpp>)                                 | ❎                                                                         | ❎                                                                   | ❎                                                                                                                       | ❎                                                                                         | ❎                                                                | ❎                                                                                           | ❎                                                             | ❎                                                                      |
 | [0086. Ice Cream Of Montu Mia](https://toph.co/p/ice-cream-of-montu-mia)                                     | ❎                                                                                                | [cpp](<../../solves/toph/0086. Ice Cream Of Montu Mia/CPP Ice Cream Of Montu Mia.cpp>)                 | ❎                                                                         | ❎                                                                   | ❎                                                                                                                       | ❎                                                                                         | ❎                                                                | ❎                                                                                           | ❎                                                             | ❎                                                                      |
+| [0087. Love Letters](https://toph.co/p/love-letters)                                                         | ❎                                                                                                | [cpp](<../../solves/toph/0087. Love Letters/CPP Love Letters.cpp>)                                     | ❎                                                                         | ❎                                                                   | ❎                                                                                                                       | ❎                                                                                         | ❎                                                                | ❎                                                                                           | ❎                                                             | ❎                                                                      |
