@@ -43,7 +43,7 @@ export async function handleCodeforces(url: string, r1: readline.Interface) {
 
     if (!foundProblem) throw new Error("This problem has no entry");
 
-    const formattedTitle = `${foundProblem.contestId}${foundProblem.index && `-${foundProblem.index}`}${foundProblem.name && `-${foundProblem.name}`}`;
+    const formattedTitle = `${foundProblem.contestId}${foundProblem.index && `-${foundProblem.index}`}${foundProblem.name && `-${foundProblem.name.replace(/[^a-zA-Z0-9-+ ]/g, "_")}`}`;
 
     const readDir = await fsp.readdir(pathToCodeforces);
     const foundDir = readDir.includes(formattedTitle);

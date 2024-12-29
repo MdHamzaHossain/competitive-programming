@@ -7,7 +7,7 @@
 |       Language      | Solves |
 | :-----------------: | :----: |
 |          c          |   13   |
-|         cpp         |   74   |
+|         cpp         |   75   |
 |          go         |    7   |
 |         java        |    2   |
 |          js         |   25   |
@@ -16,8 +16,8 @@
 |          py         |   27   |
 |          rs         |    2   |
 |        swift        |    2   |
-|  Total submissions  |   158  |
-| Total unique solved |   89   |
+|  Total submissions  |   159  |
+| Total unique solved |   90   |
 
 ### Problems
 
@@ -112,3 +112,4 @@
 | [0087. Love Letters](https://toph.co/p/love-letters)                                                         | ❎                                                                                                | [cpp](<../../solves/toph/0087. Love Letters/CPP Love Letters.cpp>)                                     | ❎                                                                         | ❎                                                                   | ❎                                                                                                                       | ❎                                                                                         | ❎                                                                | ❎                                                                                           | ❎                                                             | ❎                                                                      |
 | [0088. Burrows And Scofield](https://toph.co/p/burrows-and-scofield)                                         | ❎                                                                                                | [cpp](<../../solves/toph/0088. Burrows And Scofield/CPP Burrows And Scofield.cpp>)                     | ❎                                                                         | ❎                                                                   | ❎                                                                                                                       | ❎                                                                                         | ❎                                                                | ❎                                                                                           | ❎                                                             | ❎                                                                      |
 | [0089. Jigsaw Puzzle](https://toph.co/p/jigsaw-puzzle)                                                       | ❎                                                                                                | [cpp](<../../solves/toph/0089. Jigsaw Puzzle/CPP Jigsaw Puzzle.cpp>)                                   | ❎                                                                         | ❎                                                                   | ❎                                                                                                                       | ❎                                                                                         | ❎                                                                | ❎                                                                                           | ❎                                                             | ❎                                                                      |
+| [0090. The Game Is On](https://toph.co/p/the-game-is-on)                                                     | ❎                                                                                                | [cpp](<../../solves/toph/0090. The Game Is On/CPP The Game Is On.cpp>)                                 | ❎                                                                         | ❎                                                                   | ❎                                                                                                                       | ❎                                                                                         | ❎                                                                | ❎                                                                                           | ❎                                                             | ❎                                                                      |
