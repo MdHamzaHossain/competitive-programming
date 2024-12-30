@@ -76,7 +76,6 @@ export async function handleLeetcode(url: string, r1: readline.Interface) {
     if (!problems) throw new Error("Problem fetching codeforces data");
 
     const foundProblem = problems.find((a) => problemSlug === a.titleSlug);
-    console.log(foundProblem);
     if (!foundProblem) throw new Error("This problem has no entry");
 
     const formattedTitle = `${foundProblem.frontendQuestionId}_${foundProblem.titleSlug}`;

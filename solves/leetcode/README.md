@@ -6,10 +6,10 @@
 
 |       Language      | Solves |
 | :-----------------: | :----: |
-|         cpp         |    6   |
+|         cpp         |    7   |
 |          js         |    2   |
-|  Total submissions  |    8   |
-| Total unique solved |    7   |
+|  Total submissions  |    9   |
+| Total unique solved |    8   |
 
 ### Problems
 
@@ -19,6 +19,7 @@
 | [3_longest-substring-without-repeating-characters](https://leetcode.com/problems/longest-substring-without-repeating-characters)                    | Medium     | Hash Table, String, Sliding Window | ❎ | [cpp](<../../solves/leetcode/3_longest-substring-without-repeating-characters/CPP 3_longest-substring-without-repeating-characters.cpp>)                       | ❎  | ❎    | ❎                                                                                                         | ❎  | ❎   | ❎  | ❎  | ❎     |
 | [9_palindrome-number](https://leetcode.com/problems/palindrome-number)                                                                              | Easy       | Math                               | ❎ | [cpp](<../../solves/leetcode/9_palindrome-number/CPP 9_palindrome-number.cpp>)                                                                                 | ❎  | ❎    | ❎                                                                                                         | ❎  | ❎   | ❎  | ❎  | ❎     |
 | [13_roman-to-integer](https://leetcode.com/problems/roman-to-integer)                                                                               | Easy       | Hash Table, Math, String           | ❎ | [cpp](<../../solves/leetcode/13_roman-to-integer/CPP 13_roman-to-integer.cpp>)                                                                                 | ❎  | ❎    | ❎                                                                                                         | ❎  | ❎   | ❎  | ❎  | ❎     |
+| [14_longest-common-prefix](https://leetcode.com/problems/longest-common-prefix)                                                                     | Easy       | String, Trie                       | ❎ | [cpp](<../../solves/leetcode/14_longest-common-prefix/CPP 14_longest-common-prefix.cpp>)                                                                       | ❎  | ❎    | ❎                                                                                                         | ❎  | ❎   | ❎  | ❎  | ❎     |
 | [1014_best-sightseeing-pair](https://leetcode.com/problems/best-sightseeing-pair)                                                                   | Medium     | Array, Dynamic Programming         | ❎ | [cpp](<../../solves/leetcode/1014_best-sightseeing-pair/CPP 1014_best-sightseeing-pair.cpp>)                                                                   | ❎  | ❎    | ❎                                                                                                         | ❎  | ❎   | ❎  | ❎  | ❎     |
 | [3386_button-with-longest-push-time](https://leetcode.com/problems/button-with-longest-push-time)                                                   | Easy       | Array                              | ❎ | ❎                                                                                                                                                              | ❎  | ❎    | [js](<../../solves/leetcode/3386_button-with-longest-push-time/JS 3386_button-with-longest-push-time.js>) | ❎  | ❎   | ❎  | ❎  | ❎     |
 | [3402_minimum-operations-to-make-columns-strictly-increasing](https://leetcode.com/problems/minimum-operations-to-make-columns-strictly-increasing) | Easy       |                                    | ❎ | [cpp](<../../solves/leetcode/3402_minimum-operations-to-make-columns-strictly-increasing/CPP 3402_minimum-operations-to-make-columns-strictly-increasing.cpp>) | ❎  | ❎    | ❎                                                                                                         | ❎  | ❎   | ❎  | ❎  | ❎     |

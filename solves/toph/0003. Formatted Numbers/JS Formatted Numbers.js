@@ -1,1 +1,1 @@
-console.log(parseInt(readline()).toLocaleString())
+console.log(parseInt(readline()).toLocaleString());

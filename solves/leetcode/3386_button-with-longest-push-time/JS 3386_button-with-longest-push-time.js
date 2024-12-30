@@ -3,7 +3,7 @@ function buttonWithLongestTime(events) {
     let max = 0,
         maxInd;
     for (const [key, value] of events) {
-        let x = value - prevValue;
+        const x = value - prevValue;
         prevValue = value;
         if (x > max) {
             max = x;

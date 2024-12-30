@@ -7,7 +7,7 @@
 |       Language      | Solves |
 | :-----------------: | :----: |
 |          c          |   13   |
-|         cpp         |   77   |
+|         cpp         |   78   |
 |          go         |    7   |
 |         java        |    2   |
 |          js         |   26   |
@@ -16,8 +16,8 @@
 |          py         |   27   |
 |          rs         |    2   |
 |        swift        |    2   |
-|  Total submissions  |   162  |
-| Total unique solved |   92   |
+|  Total submissions  |   163  |
+| Total unique solved |   93   |
 
 ### Problems
 
@@ -115,3 +115,4 @@
 | [0090. The Game Is On](https://toph.co/p/the-game-is-on)                                                     | ❎                                                                                                | [cpp](<../../solves/toph/0090. The Game Is On/CPP The Game Is On.cpp>)                                 | ❎                                                                         | ❎                                                                   | ❎                                                                                                                       | ❎                                                                                         | ❎                                                                | ❎                                                                                           | ❎                                                             | ❎                                                                      |
 | [0091. Sofdar Ali S Next Day](https://toph.co/p/sofdar-ali-s-next-day)                                       | ❎                                                                                                | [cpp](<../../solves/toph/0091. Sofdar Ali S Next Day/CPP Sofdar Ali S Next Day.cpp>)                   | ❎                                                                         | ❎                                                                   | ❎                                                                                                                       | ❎                                                                                         | ❎                                                                | ❎                                                                                           | ❎                                                             | ❎                                                                      |
 | [0092. Super Sort](https://toph.co/p/super-sort)                                                             | ❎                                                                                                | [cpp](<../../solves/toph/0092. Super Sort/CPP Super Sort.cpp>)                                         | ❎                                                                         | ❎                                                                   | [js](<../../solves/toph/0092. Super Sort/JS Super Sort.js>)                                                             | ❎                                                                                         | ❎                                                                | ❎                                                                                           | ❎                                                             | ❎                                                                      |
+| [0093. Anita S Experiment](https://toph.co/p/anita-s-experiment)                                             | ❎                                                                                                | [cpp](<../../solves/toph/0093. Anita S Experiment/CPP Anita S Experiment.cpp>)                         | ❎                                                                         | ❎                                                                   | ❎                                                                                                                       | ❎                                                                                         | ❎                                                                | ❎                                                                                           | ❎                                                             | ❎                                                                      |

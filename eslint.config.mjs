@@ -17,7 +17,7 @@ const compat = new FlatCompat({
 
 export default [
     {
-        ignores: ["**/solves"],
+        ignores: ["**/dist", "**/node_modules"],
     },
     ...compat.extends("eslint:recommended", "plugin:@typescript-eslint/recommended", "plugin:prettier/recommended"),
     {
@@ -46,7 +46,7 @@ export default [
             ],
 
             indent: "off",
-            "linebreak-style": ["error", "unix"],
+            //            "linebreak-style": ["error", "unix"],
             quotes: ["error", "double"],
             semi: ["error", "always"],
             "no-var": "error",

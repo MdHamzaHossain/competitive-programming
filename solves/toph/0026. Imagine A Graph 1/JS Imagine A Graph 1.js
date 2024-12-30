@@ -10,7 +10,7 @@ function isPrime(x) {
 }
 function hasTwoPrimeDivisiblesOrIsPrime(x) {
     if (isPrime(x)) return true;
-    let primeivisibleCounter = 0;
+    const primeivisibleCounter = 0;
     for (let i = 2; i < x; i++) {
         if (x % i == 0 && isPrime(i)) {
             let prime1, prime2;

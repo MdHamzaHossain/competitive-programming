@@ -3,7 +3,7 @@ while (t--) {
     [n, k] = r()
         .split(" ")
         .map((a) => +a);
-    let arr = r()
+    const arr = r()
         .split(" ")
         .map((a) => +a)
         .sort((a, b) => a - b);

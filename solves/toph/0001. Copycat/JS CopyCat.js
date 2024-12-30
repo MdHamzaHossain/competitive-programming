@@ -1,1 +1,1 @@
-print(readline().split(" ")[0])
+print(readline().split(" ")[0]);

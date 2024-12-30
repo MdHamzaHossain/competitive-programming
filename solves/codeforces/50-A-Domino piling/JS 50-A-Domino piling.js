@@ -1,4 +1,4 @@
-let readline = require("readline").createInterface(process.stdin);
+const readline = require("readline").createInterface(process.stdin);
 print = console.log;
 readline.prompt();
 readline.on("line", (line) => {
