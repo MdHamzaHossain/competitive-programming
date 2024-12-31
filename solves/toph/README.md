@@ -7,17 +7,17 @@
 |       Language      | Solves |
 | :-----------------: | :----: |
 |          c          |   15   |
-|         cpp         |   80   |
+|         cpp         |   81   |
 |          go         |    9   |
 |         java        |    4   |
-|          js         |   27   |
+|          js         |   28   |
 |          kt         |    6   |
 |         lua         |    3   |
 |          py         |   30   |
 |          rs         |    3   |
 |        swift        |    5   |
-|  Total submissions  |   182  |
-| Total unique solved |   95   |
+|  Total submissions  |   184  |
+| Total unique solved |   96   |
 
 ### Problems
 
@@ -118,3 +118,4 @@
 | [0093. Anita S Experiment](https://toph.co/p/anita-s-experiment)                                             | ❎                                                                                                | [cpp](<../../solves/toph/0093. Anita S Experiment/CPP Anita S Experiment.cpp>)                         | ❎                                                                                         | ❎                                                                                               | ❎                                                                                                                       | ❎                                                                                         | ❎                                                                                            | ❎                                                                                           | ❎                                                                                         | ❎                                                                                     |
 | [0094. Array Sorting](https://toph.co/p/array-sorting)                                                       | ❎                                                                                                | [cpp](<../../solves/toph/0094. Array Sorting/CPP Array Sorting.cpp>)                                   | ❎                                                                                         | ❎                                                                                               | ❎                                                                                                                       | ❎                                                                                         | ❎                                                                                            | ❎                                                                                           | ❎                                                                                         | ❎                                                                                     |
 | [0095. Calendar Of Planet Biku](https://toph.co/p/calendar-of-planet-biku)                                   | ❎                                                                                                | [cpp](<../../solves/toph/0095. Calendar Of Planet Biku/CPP Calendar Of Planet Biku.cpp>)               | ❎                                                                                         | ❎                                                                                               | ❎                                                                                                                       | ❎                                                                                         | ❎                                                                                            | ❎                                                                                           | ❎                                                                                         | ❎                                                                                     |
+| [0096. Robin S Birthday](https://toph.co/p/robin-s-birthday)                                                 | ❎                                                                                                | [cpp](<../../solves/toph/0096. Robin S Birthday/CPP Robin S Birthday.cpp>)                             | ❎                                                                                         | ❎                                                                                               | [js](<../../solves/toph/0096. Robin S Birthday/JS Robin S Birthday.js>)                                                 | ❎                                                                                         | ❎                                                                                            | ❎                                                                                           | ❎                                                                                         | ❎                                                                                     |
