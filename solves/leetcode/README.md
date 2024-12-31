@@ -6,10 +6,10 @@
 
 |       Language      | Solves |
 | :-----------------: | :----: |
-|         cpp         |    8   |
+|         cpp         |    9   |
 |          js         |    2   |
-|  Total submissions  |   10   |
-| Total unique solved |    9   |
+|  Total submissions  |   11   |
+| Total unique solved |   10   |
 
 ### Problems
 
@@ -21,6 +21,7 @@
 | [13_roman-to-integer](https://leetcode.com/problems/roman-to-integer)                                                                               | Easy       | Hash Table, Math, String           | ❎ | [cpp](<../../solves/leetcode/13_roman-to-integer/CPP 13_roman-to-integer.cpp>)                                                                                 | ❎  | ❎    | ❎                                                                                                         | ❎  | ❎   | ❎  | ❎  | ❎     |
 | [14_longest-common-prefix](https://leetcode.com/problems/longest-common-prefix)                                                                     | Easy       | String, Trie                       | ❎ | [cpp](<../../solves/leetcode/14_longest-common-prefix/CPP 14_longest-common-prefix.cpp>)                                                                       | ❎  | ❎    | ❎                                                                                                         | ❎  | ❎   | ❎  | ❎  | ❎     |
 | [66_plus-one](https://leetcode.com/problems/plus-one)                                                                                               | Easy       | Array, Math                        | ❎ | [cpp](<../../solves/leetcode/66_plus-one/CPP 66_plus-one.cpp>)                                                                                                 | ❎  | ❎    | ❎                                                                                                         | ❎  | ❎   | ❎  | ❎  | ❎     |
+| [136_single-number](https://leetcode.com/problems/single-number)                                                                                    | Easy       | Array, Bit Manipulation            | ❎ | [cpp](<../../solves/leetcode/136_single-number/CPP 136_single-number.cpp>)                                                                                     | ❎  | ❎    | ❎                                                                                                         | ❎  | ❎   | ❎  | ❎  | ❎     |
 | [1014_best-sightseeing-pair](https://leetcode.com/problems/best-sightseeing-pair)                                                                   | Medium     | Array, Dynamic Programming         | ❎ | [cpp](<../../solves/leetcode/1014_best-sightseeing-pair/CPP 1014_best-sightseeing-pair.cpp>)                                                                   | ❎  | ❎    | ❎                                                                                                         | ❎  | ❎   | ❎  | ❎  | ❎     |
 | [3386_button-with-longest-push-time](https://leetcode.com/problems/button-with-longest-push-time)                                                   | Easy       | Array                              | ❎ | ❎                                                                                                                                                              | ❎  | ❎    | [js](<../../solves/leetcode/3386_button-with-longest-push-time/JS 3386_button-with-longest-push-time.js>) | ❎  | ❎   | ❎  | ❎  | ❎     |
 | [3402_minimum-operations-to-make-columns-strictly-increasing](https://leetcode.com/problems/minimum-operations-to-make-columns-strictly-increasing) | Easy       |                                    | ❎ | [cpp](<../../solves/leetcode/3402_minimum-operations-to-make-columns-strictly-increasing/CPP 3402_minimum-operations-to-make-columns-strictly-increasing.cpp>) | ❎  | ❎    | ❎                                                                                                         | ❎  | ❎   | ❎  | ❎  | ❎     |
