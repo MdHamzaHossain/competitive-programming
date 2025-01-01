@@ -6,10 +6,10 @@
 
 |       Language      | Solves |
 | :-----------------: | :----: |
-|         cpp         |    9   |
+|         cpp         |   10   |
 |          js         |    2   |
-|  Total submissions  |   11   |
-| Total unique solved |   10   |
+|  Total submissions  |   12   |
+| Total unique solved |   11   |
 
 ### Problems
 
@@ -20,6 +20,7 @@
 | [9_palindrome-number](https://leetcode.com/problems/palindrome-number)                                                                              | Easy       | Math                               | ❎ | [cpp](<../../solves/leetcode/9_palindrome-number/CPP 9_palindrome-number.cpp>)                                                                                 | ❎  | ❎    | ❎                                                                                                         | ❎  | ❎   | ❎  | ❎  | ❎     |
 | [13_roman-to-integer](https://leetcode.com/problems/roman-to-integer)                                                                               | Easy       | Hash Table, Math, String           | ❎ | [cpp](<../../solves/leetcode/13_roman-to-integer/CPP 13_roman-to-integer.cpp>)                                                                                 | ❎  | ❎    | ❎                                                                                                         | ❎  | ❎   | ❎  | ❎  | ❎     |
 | [14_longest-common-prefix](https://leetcode.com/problems/longest-common-prefix)                                                                     | Easy       | String, Trie                       | ❎ | [cpp](<../../solves/leetcode/14_longest-common-prefix/CPP 14_longest-common-prefix.cpp>)                                                                       | ❎  | ❎    | ❎                                                                                                         | ❎  | ❎   | ❎  | ❎  | ❎     |
+| [35_search-insert-position](https://leetcode.com/problems/search-insert-position)                                                                   | Easy       | Array, Binary Search               | ❎ | [cpp](<../../solves/leetcode/35_search-insert-position/CPP 35_search-insert-position.cpp>)                                                                     | ❎  | ❎    | ❎                                                                                                         | ❎  | ❎   | ❎  | ❎  | ❎     |
 | [66_plus-one](https://leetcode.com/problems/plus-one)                                                                                               | Easy       | Array, Math                        | ❎ | [cpp](<../../solves/leetcode/66_plus-one/CPP 66_plus-one.cpp>)                                                                                                 | ❎  | ❎    | ❎                                                                                                         | ❎  | ❎   | ❎  | ❎  | ❎     |
 | [136_single-number](https://leetcode.com/problems/single-number)                                                                                    | Easy       | Array, Bit Manipulation            | ❎ | [cpp](<../../solves/leetcode/136_single-number/CPP 136_single-number.cpp>)                                                                                     | ❎  | ❎    | ❎                                                                                                         | ❎  | ❎   | ❎  | ❎  | ❎     |
 | [1014_best-sightseeing-pair](https://leetcode.com/problems/best-sightseeing-pair)                                                                   | Medium     | Array, Dynamic Programming         | ❎ | [cpp](<../../solves/leetcode/1014_best-sightseeing-pair/CPP 1014_best-sightseeing-pair.cpp>)                                                                   | ❎  | ❎    | ❎                                                                                                         | ❎  | ❎   | ❎  | ❎  | ❎     |
