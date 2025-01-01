@@ -7,7 +7,7 @@
 |       Language      | Solves |
 | :-----------------: | :----: |
 |          c          |   15   |
-|         cpp         |   81   |
+|         cpp         |   82   |
 |          go         |    9   |
 |         java        |    4   |
 |          js         |   28   |
@@ -16,8 +16,8 @@
 |          py         |   30   |
 |          rs         |    3   |
 |        swift        |    5   |
-|  Total submissions  |   184  |
-| Total unique solved |   96   |
+|  Total submissions  |   185  |
+| Total unique solved |   97   |
 
 ### Problems
 
@@ -119,3 +119,4 @@
 | [0094. Array Sorting](https://toph.co/p/array-sorting)                                                       | ❎                                                                                                | [cpp](<../../solves/toph/0094. Array Sorting/CPP Array Sorting.cpp>)                                   | ❎                                                                                         | ❎                                                                                               | ❎                                                                                                                       | ❎                                                                                         | ❎                                                                                            | ❎                                                                                           | ❎                                                                                         | ❎                                                                                     |
 | [0095. Calendar Of Planet Biku](https://toph.co/p/calendar-of-planet-biku)                                   | ❎                                                                                                | [cpp](<../../solves/toph/0095. Calendar Of Planet Biku/CPP Calendar Of Planet Biku.cpp>)               | ❎                                                                                         | ❎                                                                                               | ❎                                                                                                                       | ❎                                                                                         | ❎                                                                                            | ❎                                                                                           | ❎                                                                                         | ❎                                                                                     |
 | [0096. Robin S Birthday](https://toph.co/p/robin-s-birthday)                                                 | ❎                                                                                                | [cpp](<../../solves/toph/0096. Robin S Birthday/CPP Robin S Birthday.cpp>)                             | ❎                                                                                         | ❎                                                                                               | [js](<../../solves/toph/0096. Robin S Birthday/JS Robin S Birthday.js>)                                                 | ❎                                                                                         | ❎                                                                                            | ❎                                                                                           | ❎                                                                                         | ❎                                                                                     |
+| [0097. Nobita And Shizuka](https://toph.co/p/nobita-and-shizuka)                                             | ❎                                                                                                | [cpp](<../../solves/toph/0097. Nobita And Shizuka/CPP Nobita And Shizuka.cpp>)                         | ❎                                                                                         | ❎                                                                                               | ❎                                                                                                                       | ❎                                                                                         | ❎                                                                                            | ❎                                                                                           | ❎                                                                                         | ❎                                                                                     |
