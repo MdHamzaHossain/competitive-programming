@@ -6,10 +6,10 @@
 
 |       Language      | Solves |
 | :-----------------: | :----: |
-|         cpp         |   10   |
+|         cpp         |   11   |
 |          js         |    2   |
-|  Total submissions  |   12   |
-| Total unique solved |   11   |
+|  Total submissions  |   13   |
+| Total unique solved |   12   |
 
 ### Problems
 
@@ -24,5 +24,6 @@
 | [66_plus-one](https://leetcode.com/problems/plus-one)                                                                                               | Easy       | Array, Math                        | ❎ | [cpp](<../../solves/leetcode/66_plus-one/CPP 66_plus-one.cpp>)                                                                                                 | ❎  | ❎    | ❎                                                                                                         | ❎  | ❎   | ❎  | ❎  | ❎     |
 | [136_single-number](https://leetcode.com/problems/single-number)                                                                                    | Easy       | Array, Bit Manipulation            | ❎ | [cpp](<../../solves/leetcode/136_single-number/CPP 136_single-number.cpp>)                                                                                     | ❎  | ❎    | ❎                                                                                                         | ❎  | ❎   | ❎  | ❎  | ❎     |
 | [1014_best-sightseeing-pair](https://leetcode.com/problems/best-sightseeing-pair)                                                                   | Medium     | Array, Dynamic Programming         | ❎ | [cpp](<../../solves/leetcode/1014_best-sightseeing-pair/CPP 1014_best-sightseeing-pair.cpp>)                                                                   | ❎  | ❎    | ❎                                                                                                         | ❎  | ❎   | ❎  | ❎  | ❎     |
+| [2559_count-vowel-strings-in-ranges](https://leetcode.com/problems/count-vowel-strings-in-ranges)                                                   | Medium     | Array, String, Prefix Sum          | ❎ | [cpp](<../../solves/leetcode/2559_count-vowel-strings-in-ranges/CPP 2559_count-vowel-strings-in-ranges.cpp>)                                                   | ❎  | ❎    | ❎                                                                                                         | ❎  | ❎   | ❎  | ❎  | ❎     |
 | [3386_button-with-longest-push-time](https://leetcode.com/problems/button-with-longest-push-time)                                                   | Easy       | Array                              | ❎ | ❎                                                                                                                                                              | ❎  | ❎    | [js](<../../solves/leetcode/3386_button-with-longest-push-time/JS 3386_button-with-longest-push-time.js>) | ❎  | ❎   | ❎  | ❎  | ❎     |
 | [3402_minimum-operations-to-make-columns-strictly-increasing](https://leetcode.com/problems/minimum-operations-to-make-columns-strictly-increasing) | Easy       |                                    | ❎ | [cpp](<../../solves/leetcode/3402_minimum-operations-to-make-columns-strictly-increasing/CPP 3402_minimum-operations-to-make-columns-strictly-increasing.cpp>) | ❎  | ❎    | ❎                                                                                                         | ❎  | ❎   | ❎  | ❎  | ❎     |
