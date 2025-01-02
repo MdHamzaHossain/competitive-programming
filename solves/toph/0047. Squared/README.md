@@ -2,5 +2,4 @@
 
 ## __COMMENTS__
 
-> 
-
+> just square the input num
