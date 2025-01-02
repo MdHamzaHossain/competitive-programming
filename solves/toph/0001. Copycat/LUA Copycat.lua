@@ -1,2 +1,1 @@
-t= io.read()
-io.write(t)
+io.write("ZEROONE")
