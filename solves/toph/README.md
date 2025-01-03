@@ -6,18 +6,18 @@
 
 |       Language      | Solves |
 | :-----------------: | :----: |
-|          c          |   20   |
-|         cpp         |   83   |
-|          go         |   13   |
-|         java        |   11   |
-|          js         |   30   |
-|          kt         |   12   |
-|         lua         |   11   |
-|          py         |   33   |
-|          rs         |   10   |
-|        swift        |   12   |
-|  Total submissions  |   235  |
-| Total unique solved |   98   |
+|          c          |   21   |
+|         cpp         |   84   |
+|          go         |   14   |
+|         java        |   12   |
+|          js         |   31   |
+|          kt         |   13   |
+|         lua         |   12   |
+|          py         |   34   |
+|          rs         |   11   |
+|        swift        |   13   |
+|  Total submissions  |   245  |
+| Total unique solved |   99   |
 
 ### Problems
 
@@ -121,3 +121,4 @@
 | [0096. Robin S Birthday](https://toph.co/p/robin-s-birthday)                                                 | ❎                                                                                                | [cpp](<../../solves/toph/0096. Robin S Birthday/CPP Robin S Birthday.cpp>)                             | ❎                                                                                           | ❎                                                                                                 | [js](<../../solves/toph/0096. Robin S Birthday/JS Robin S Birthday.js>)                                                 | ❎                                                                                           | ❎                                                                                              | ❎                                                                                           | ❎                                                                                           | ❎                                                                                                    |
 | [0097. Nobita And Shizuka](https://toph.co/p/nobita-and-shizuka)                                             | ❎                                                                                                | [cpp](<../../solves/toph/0097. Nobita And Shizuka/CPP Nobita And Shizuka.cpp>)                         | ❎                                                                                           | ❎                                                                                                 | ❎                                                                                                                       | ❎                                                                                           | ❎                                                                                              | ❎                                                                                           | ❎                                                                                           | ❎                                                                                                    |
 | [0098. 45th Icpc Unsolved Problem](https://toph.co/p/45th-icpc-unsolved-problem)                             | [c](<../../solves/toph/0098. 45th Icpc Unsolved Problem/C 45th Icpc Unsolved Problem.c>)         | [cpp](<../../solves/toph/0098. 45th Icpc Unsolved Problem/CPP 45th Icpc Unsolved Problem.cpp>)         | [go](<../../solves/toph/0098. 45th Icpc Unsolved Problem/GO 45th Icpc Unsolved Problem.go>) | [java](<../../solves/toph/0098. 45th Icpc Unsolved Problem/JAVA 45th Icpc Unsolved Problem.java>) | [js](<../../solves/toph/0098. 45th Icpc Unsolved Problem/JS 45th Icpc Unsolved Problem.js>)                             | [kt](<../../solves/toph/0098. 45th Icpc Unsolved Problem/KT 45th Icpc Unsolved Problem.kt>) | [lua](<../../solves/toph/0098. 45th Icpc Unsolved Problem/LUA 45th Icpc Unsolved Problem.lua>) | [py](<../../solves/toph/0098. 45th Icpc Unsolved Problem/PY 45th Icpc Unsolved Problem.py>) | [rs](<../../solves/toph/0098. 45th Icpc Unsolved Problem/RS 45th Icpc Unsolved Problem.rs>) | [swift](<../../solves/toph/0098. 45th Icpc Unsolved Problem/SWIFT 45th Icpc Unsolved Problem.swift>) |
+| [0099. Icpc To Lcpc](https://toph.co/p/icpc-to-lcpc)                                                         | [c](<../../solves/toph/0099. Icpc To Lcpc/C Icpc To Lcpc.c>)                                     | [cpp](<../../solves/toph/0099. Icpc To Lcpc/CPP Icpc To Lcpc.cpp>)                                     | [go](<../../solves/toph/0099. Icpc To Lcpc/GO Icpc To Lcpc.go>)                             | [java](<../../solves/toph/0099. Icpc To Lcpc/JAVA Icpc To Lcpc.java>)                             | [js](<../../solves/toph/0099. Icpc To Lcpc/JS Icpc To Lcpc.js>)                                                         | [kt](<../../solves/toph/0099. Icpc To Lcpc/KT Icpc To Lcpc.kt>)                             | [lua](<../../solves/toph/0099. Icpc To Lcpc/LUA Icpc To Lcpc.lua>)                             | [py](<../../solves/toph/0099. Icpc To Lcpc/PY Icpc To Lcpc.py>)                             | [rs](<../../solves/toph/0099. Icpc To Lcpc/RS Icpc To Lcpc.rs>)                             | [swift](<../../solves/toph/0099. Icpc To Lcpc/SWIFT Icpc To Lcpc.swift>)                             |
