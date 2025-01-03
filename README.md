@@ -10,6 +10,7 @@ This also has a script which creates the folders, a template README.md and each 
 - [AtCoder](https://atcoder.jp/users/HamzaHossain)
 - [Codeforces](https://codeforces.com/profile/hamzahossain)
 - [Codechef](https://www.codechef.com/users/hamzahossain)
+- [HackerRank](https://www.hackerrank.com/profile/hamzahossain)
 - [Leetcode](https://leetcode.com/u/hamzahossain/)
 - [Toph](https://toph.co/u/hamzahossain)
 
@@ -40,7 +41,7 @@ npm run addentry
 
 |               Platform              | Total Submissions | Total Unique Solved |
 | :---------------------------------: | :---------------: | :-----------------: |
-| [codeforces](<./solves/codeforces>) |         49        |          35         |
+| [codeforces](<./solves/codeforces>) |         50        |          36         |
 |   [leetcode](<./solves/leetcode>)   |         22        |          16         |
 |       [toph](<./solves/toph>)       |        246        |          99         |
 
@@ -49,7 +50,7 @@ npm run addentry
 |       Language      | Solves |
 | :-----------------: | :----: |
 |          c          |   24   |
-|         cpp         |   134  |
+|         cpp         |   135  |
 |          go         |   16   |
 |         java        |   15   |
 |          js         |   37   |
@@ -58,5 +59,5 @@ npm run addentry
 |          py         |   37   |
 |          rs         |   14   |
 |        swift        |   13   |
-|  Total submissions  |   317  |
-| Total unique solved |   150  |
+|  Total submissions  |   318  |
+| Total unique solved |   151  |
