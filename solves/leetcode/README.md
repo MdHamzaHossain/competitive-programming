@@ -8,11 +8,11 @@
 | :-----------------: | :----: |
 |         cpp         |   17   |
 |         java        |    1   |
-|          js         |    3   |
+|          js         |    4   |
 |          py         |    1   |
 |          rs         |    1   |
-|  Total submissions  |   23   |
-| Total unique solved |   17   |
+|  Total submissions  |   24   |
+| Total unique solved |   18   |
 
 ### Problems
 
@@ -35,3 +35,4 @@
 | [2559_count-vowel-strings-in-ranges](https://leetcode.com/problems/count-vowel-strings-in-ranges)                                                   | Medium     | Array, String, Prefix Sum                                | ❎ | [cpp](<../../solves/leetcode/2559_count-vowel-strings-in-ranges/CPP 2559_count-vowel-strings-in-ranges.cpp>)                                                   | ❎  | ❎                                                                                                       | ❎                                                                                                         | ❎  | ❎   | ❎                                                                                                 | ❎                                                                                                 | ❎     |
 | [3386_button-with-longest-push-time](https://leetcode.com/problems/button-with-longest-push-time)                                                   | Easy       | Array                                                    | ❎ | [cpp](<../../solves/leetcode/3386_button-with-longest-push-time/CPP 3386_button-with-longest-push-time.cpp>)                                                   | ❎  | ❎                                                                                                       | [js](<../../solves/leetcode/3386_button-with-longest-push-time/JS 3386_button-with-longest-push-time.js>) | ❎  | ❎   | ❎                                                                                                 | ❎                                                                                                 | ❎     |
 | [3402_minimum-operations-to-make-columns-strictly-increasing](https://leetcode.com/problems/minimum-operations-to-make-columns-strictly-increasing) | Easy       |                                                          | ❎ | [cpp](<../../solves/leetcode/3402_minimum-operations-to-make-columns-strictly-increasing/CPP 3402_minimum-operations-to-make-columns-strictly-increasing.cpp>) | ❎  | ❎                                                                                                       | ❎                                                                                                         | ❎  | ❎   | ❎                                                                                                 | ❎                                                                                                 | ❎     |
+| [3407_substring-matching-pattern](https://leetcode.com/problems/substring-matching-pattern)                                                         | Easy       |                                                          | ❎ | ❎                                                                                                                                                              | ❎  | ❎                                                                                                       | [js](<../../solves/leetcode/3407_substring-matching-pattern/JS 3407_substring-matching-pattern.js>)       | ❎  | ❎   | ❎                                                                                                 | ❎                                                                                                 | ❎     |

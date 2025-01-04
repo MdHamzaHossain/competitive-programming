@@ -1,6 +1,5 @@
-n = 0 + io.read()
-local s = "I have to travel back to the past"
-if ((n < 1582 and n % 4 == 0) or (n % 400 == 0 or (n % 4 == 0 and n % 100 ~= 0))) then
-    s = "I can participate in LCPC"
+local sum = 0
+for a in string.gmatch(io.read(), "[^ ]+") do
+    sum = sum + (0 + a)
 end
-io.write(s, '\n')
+io.write(sum)
