@@ -7,9 +7,9 @@ This also has a script which creates the folders, a template README.md and each 
 
 ### Account Handles
 
-- [AtCoder](https://atcoder.jp/users/HamzaHossain)
+<!-- - [AtCoder](https://atcoder.jp/users/HamzaHossain) -->
 - [Codeforces](https://codeforces.com/profile/hamzahossain)
-- [Codechef](https://www.codechef.com/users/hamzahossain)
+<!-- - [Codechef](https://www.codechef.com/users/hamzahossain) -->
 - [HackerRank](https://www.hackerrank.com/profile/hamzahossain)
 - [Leetcode](https://leetcode.com/u/hamzahossain/)
 - [Toph](https://toph.co/u/hamzahossain)
@@ -41,23 +41,23 @@ npm run addentry
 
 |               Platform              | Total Submissions | Total Unique Solved |
 | :---------------------------------: | :---------------: | :-----------------: |
-| [codeforces](<./solves/codeforces>) |         52        |          38         |
-|   [leetcode](<./solves/leetcode>)   |         24        |          18         |
-|       [toph](<./solves/toph>)       |        259        |         100         |
+| [codeforces](<./solves/codeforces>) |         54        |          39         |
+|   [leetcode](<./solves/leetcode>)   |         27        |          21         |
+|       [toph](<./solves/toph>)       |        260        |         101         |
 
 ### Per Language
 
 |       Language      | Solves |
 | :-----------------: | :----: |
-|          c          |   25   |
-|         cpp         |   139  |
+|          c          |   26   |
+|         cpp         |   143  |
 |          go         |   18   |
 |         java        |   17   |
 |          js         |   39   |
 |          kt         |   16   |
 |         lua         |   14   |
-|          py         |   38   |
+|          py         |   39   |
 |          rs         |   15   |
 |        swift        |   14   |
-|  Total submissions  |   335  |
-| Total unique solved |   156  |
+|  Total submissions  |   341  |
+| Total unique solved |   161  |
