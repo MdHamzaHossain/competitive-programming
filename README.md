@@ -3,13 +3,15 @@
 ## What is this?
 
 A documentation of all the solutions I have made for every problem using multiple different languages.\
-This also has a script which creates the folders, a template README.md and each file for each language I solved in. The content of which is to be manual input.
+This also has a script which creates the folders, a template README.md and each file for each language I solved in. The
+content of which is to be manual input.
 
 ### Account Handles
 
 <!-- - [AtCoder](https://atcoder.jp/users/HamzaHossain) -->
-- [Codeforces](https://codeforces.com/profile/hamzahossain)
 <!-- - [Codechef](https://www.codechef.com/users/hamzahossain) -->
+
+- [Codeforces](https://codeforces.com/profile/hamzahossain)
 - [HackerRank](https://www.hackerrank.com/profile/hamzahossain)
 - [Leetcode](https://leetcode.com/u/hamzahossain/)
 - [Toph](https://toph.co/u/hamzahossain)
@@ -41,7 +43,7 @@ npm run addentry
 
 |               Platform              | Total Submissions | Total Unique Solved |
 | :---------------------------------: | :---------------: | :-----------------: |
-| [codeforces](<./solves/codeforces>) |         58        |          43         |
+| [codeforces](<./solves/codeforces>) |         59        |          44         |
 |   [leetcode](<./solves/leetcode>)   |         32        |          25         |
 |       [toph](<./solves/toph>)       |        276        |         105         |
 
@@ -50,7 +52,7 @@ npm run addentry
 |       Language      | Solves |
 | :-----------------: | :----: |
 |          c          |   26   |
-|         cpp         |   165  |
+|         cpp         |   166  |
 |          go         |   18   |
 |         java        |   17   |
 |          js         |   42   |
@@ -59,5 +61,5 @@ npm run addentry
 |          py         |   39   |
 |          rs         |   15   |
 |        swift        |   14   |
-|  Total submissions  |   366  |
-| Total unique solved |   173  |
+|  Total submissions  |   367  |
+| Total unique solved |   174  |
