@@ -3,4 +3,3 @@
 ## __COMMENTS__
 
 > CGPA = SUMMATION[ (iThGrade * iThCredit)]/totalCredit
-
