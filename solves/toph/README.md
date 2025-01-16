@@ -7,17 +7,17 @@
 |       Language      | Solves |
 | :-----------------: | :----: |
 |          c          |   24   |
-|         cpp         |   108  |
+|         cpp         |   109  |
 |          go         |   16   |
 |         java        |   15   |
-|          js         |   32   |
+|          js         |   33   |
 |          kt         |   14   |
 |         lua         |   14   |
-|          py         |   35   |
+|          py         |   36   |
 |          rs         |   13   |
 |        swift        |   14   |
-|  Total submissions  |   285  |
-| Total unique solved |   111  |
+|  Total submissions  |   288  |
+| Total unique solved |   112  |
 
 ### Problems
 
@@ -134,3 +134,4 @@
 | [0109. Cgpa The Golden Egg](https://toph.co/p/cgpa-the-golden-egg)                                           | [c](<../../solves/toph/0109. Cgpa The Golden Egg/C Cgpa The Golden Egg.c>)                       | [cpp](<../../solves/toph/0109. Cgpa The Golden Egg/CPP Cgpa The Golden Egg.cpp>)                                           | ❎                                                                                           | [java](<../../solves/toph/0109. Cgpa The Golden Egg/JAVA Cgpa The Golden Egg.java>)               | ❎                                                                                                                       | ❎                                                                                           | ❎                                                                                              | ❎                                                                                           | ❎                                                                                           | ❎                                                                                                    |
 | [0110. Mr Zero](https://toph.co/p/mr-zero)                                                                   | [c](<../../solves/toph/0110. Mr Zero/C Mr Zero.c>)                                               | [cpp](<../../solves/toph/0110. Mr Zero/CPP Mr Zero.cpp>)                                                                   | ❎                                                                                           | ❎                                                                                                 | ❎                                                                                                                       | ❎                                                                                           | ❎                                                                                              | ❎                                                                                           | ❎                                                                                           | ❎                                                                                                    |
 | [0111. Collectors Problem](https://toph.co/p/collectors-problem)                                             | ❎                                                                                                | [cpp](<../../solves/toph/0111. Collectors Problem/CPP Collectors Problem.cpp>)                                             | ❎                                                                                           | ❎                                                                                                 | ❎                                                                                                                       | ❎                                                                                           | ❎                                                                                              | ❎                                                                                           | ❎                                                                                           | ❎                                                                                                    |
+| [0112. Life Of Decimals](https://toph.co/p/life-of-decimals)                                                 | ❎                                                                                                | [cpp](<../../solves/toph/0112. Life Of Decimals/CPP Life Of Decimals.cpp>)                                                 | ❎                                                                                           | ❎                                                                                                 | [js](<../../solves/toph/0112. Life Of Decimals/JS Life Of Decimals.js>)                                                 | ❎                                                                                           | ❎                                                                                              | [py](<../../solves/toph/0112. Life Of Decimals/PY Life Of Decimals.py>)                     | ❎                                                                                           | ❎                                                                                                    |
