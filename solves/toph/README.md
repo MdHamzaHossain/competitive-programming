@@ -6,8 +6,8 @@
 
 |       Language      | Solves |
 | :-----------------: | :----: |
-|          c          |   24   |
-|         cpp         |   109  |
+|          c          |   25   |
+|         cpp         |   110  |
 |          go         |   16   |
 |         java        |   15   |
 |          js         |   33   |
@@ -16,8 +16,8 @@
 |          py         |   36   |
 |          rs         |   13   |
 |        swift        |   14   |
-|  Total submissions  |   288  |
-| Total unique solved |   112  |
+|  Total submissions  |   290  |
+| Total unique solved |   113  |
 
 ### Problems
 
@@ -135,3 +135,4 @@
 | [0110. Mr Zero](https://toph.co/p/mr-zero)                                                                   | [c](<../../solves/toph/0110. Mr Zero/C Mr Zero.c>)                                               | [cpp](<../../solves/toph/0110. Mr Zero/CPP Mr Zero.cpp>)                                                                   | ❎                                                                                           | ❎                                                                                                 | ❎                                                                                                                       | ❎                                                                                           | ❎                                                                                              | ❎                                                                                           | ❎                                                                                           | ❎                                                                                                    |
 | [0111. Collectors Problem](https://toph.co/p/collectors-problem)                                             | ❎                                                                                                | [cpp](<../../solves/toph/0111. Collectors Problem/CPP Collectors Problem.cpp>)                                             | ❎                                                                                           | ❎                                                                                                 | ❎                                                                                                                       | ❎                                                                                           | ❎                                                                                              | ❎                                                                                           | ❎                                                                                           | ❎                                                                                                    |
 | [0112. Life Of Decimals](https://toph.co/p/life-of-decimals)                                                 | ❎                                                                                                | [cpp](<../../solves/toph/0112. Life Of Decimals/CPP Life Of Decimals.cpp>)                                                 | ❎                                                                                           | ❎                                                                                                 | [js](<../../solves/toph/0112. Life Of Decimals/JS Life Of Decimals.js>)                                                 | ❎                                                                                           | ❎                                                                                              | [py](<../../solves/toph/0112. Life Of Decimals/PY Life Of Decimals.py>)                     | ❎                                                                                           | ❎                                                                                                    |
+| [0113. Let S Permute The String](https://toph.co/p/let-s-permute-the-string)                                 | [c](<../../solves/toph/0113. Let S Permute The String/C Let S Permute The String.c>)             | [cpp](<../../solves/toph/0113. Let S Permute The String/CPP Let S Permute The String.cpp>)                                 | ❎                                                                                           | ❎                                                                                                 | ❎                                                                                                                       | ❎                                                                                           | ❎                                                                                              | ❎                                                                                           | ❎                                                                                           | ❎                                                                                                    |
