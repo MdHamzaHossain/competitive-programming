@@ -6,8 +6,8 @@
 
 |       Language      | Solves |
 | :-----------------: | :----: |
-|          c          |   25   |
-|         cpp         |   111  |
+|          c          |   26   |
+|         cpp         |   112  |
 |          go         |   16   |
 |         java        |   15   |
 |          js         |   33   |
@@ -16,8 +16,8 @@
 |          py         |   36   |
 |          rs         |   13   |
 |        swift        |   14   |
-|  Total submissions  |   291  |
-| Total unique solved |   114  |
+|  Total submissions  |   293  |
+| Total unique solved |   115  |
 
 ### Problems
 
@@ -137,3 +137,4 @@
 | [0112. Life Of Decimals](https://toph.co/p/life-of-decimals)                                                 | ❎                                                                                                | [cpp](<../../solves/toph/0112. Life Of Decimals/CPP Life Of Decimals.cpp>)                                                 | ❎                                                                                           | ❎                                                                                                 | [js](<../../solves/toph/0112. Life Of Decimals/JS Life Of Decimals.js>)                                                 | ❎                                                                                           | ❎                                                                                              | [py](<../../solves/toph/0112. Life Of Decimals/PY Life Of Decimals.py>)                     | ❎                                                                                           | ❎                                                                                                    |
 | [0113. Let S Permute The String](https://toph.co/p/let-s-permute-the-string)                                 | [c](<../../solves/toph/0113. Let S Permute The String/C Let S Permute The String.c>)             | [cpp](<../../solves/toph/0113. Let S Permute The String/CPP Let S Permute The String.cpp>)                                 | ❎                                                                                           | ❎                                                                                                 | ❎                                                                                                                       | ❎                                                                                           | ❎                                                                                              | ❎                                                                                           | ❎                                                                                           | ❎                                                                                                    |
 | [0114. Alayna And Vowels](https://toph.co/p/alayna-and-vowels)                                               | ❎                                                                                                | [cpp](<../../solves/toph/0114. Alayna And Vowels/CPP Alayna And Vowels.cpp>)                                               | ❎                                                                                           | ❎                                                                                                 | ❎                                                                                                                       | ❎                                                                                           | ❎                                                                                              | ❎                                                                                           | ❎                                                                                           | ❎                                                                                                    |
+| [0115. Icpc Seat Plan](https://toph.co/p/icpc-seat-plan)                                                     | [c](<../../solves/toph/0115. Icpc Seat Plan/C Icpc Seat Plan.c>)                                 | [cpp](<../../solves/toph/0115. Icpc Seat Plan/CPP Icpc Seat Plan.cpp>)                                                     | ❎                                                                                           | ❎                                                                                                 | ❎                                                                                                                       | ❎                                                                                           | ❎                                                                                              | ❎                                                                                           | ❎                                                                                           | ❎                                                                                                    |
