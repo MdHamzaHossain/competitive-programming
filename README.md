@@ -9,8 +9,7 @@ content of which is to be manual input.
 ### Account Handles
 
 <!-- - [AtCoder](https://atcoder.jp/users/HamzaHossain) -->
-<!-- - [Codechef](https://www.codechef.com/users/hamzahossain) -->
-
+- [Codechef](https://www.codechef.com/users/hamzahossain)
 - [Codeforces](https://codeforces.com/profile/hamzahossain)
 - [HackerRank](https://www.hackerrank.com/profile/hamzahossain)
 - [Leetcode](https://leetcode.com/u/hamzahossain/)
