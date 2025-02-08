@@ -42,7 +42,7 @@ typedef pair<int, int> pairInt;
         i;                    \
     PRINTEND;
 
-int main()
+int main1()
 {
     map<string, int> val;
     string tmr = "Timur";
@@ -83,6 +83,33 @@ int main()
             }
         }
 
+        PRINTSTR((valid ? "YES" : "NO"));
+        PRINTEND;
+    }
+}
+/**
+ * Implimentation 2
+ */
+int main()
+{
+    map<string, int> val;
+    string tmr = "Timru";
+    val[tmr] = 1;
+    while (next_permutation(b2e(tmr)))
+    {
+        val[tmr] = 1;
+    }
+    testCase
+    {
+        int n;
+        SCANINT(n);
+        string s;
+        cin >> s;
+        int valid = 1;
+        if (s.size() != tmr.size() || val[s] != 1)
+        {
+            valid = 0;
+        }
         PRINTSTR((valid ? "YES" : "NO"));
         PRINTEND;
     }
