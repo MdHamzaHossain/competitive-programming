@@ -51,6 +51,6 @@ int main()
     SCANLL(a);
     SCANLL(b);
 
-    PRINTLL(m * a <= b ? n * a : (n / a) * b + min((n % m) * a, b));
+    PRINTLL((m * a <= b) ? (n * a) : ((n / m) * b + min((n % m) * a, b)));
     PRINTEND;
 }
