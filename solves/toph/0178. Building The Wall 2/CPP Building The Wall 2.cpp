@@ -44,36 +44,27 @@ typedef pair<int, int> pairInt;
     PRINTEND;
 int main()
 {
-    int n;
-    SCANINT(n);
-    string s;
-    cin >> s;
-    unordered_map<char, int> m = {
-        {'N', 0},
-        {'S', 0},
-        {'U', 0},
-        {'P', 0},
-        {'R', 0},
-    };
-    for (auto c : s)
+    vector<ll> tracker(1000000, 0);
+    ll n, m;
+    SCANLL(n);
+    SCANLL(m);
+    FORI(i, 1, m)
     {
-        switch (c)
-        {
-        case 'N':
-            m['N']++;
-            break;
-        case 'S':
-            m['S'] += m['N'];
-            m['R'] += m['P'];
-            break;
-        case 'U':
-            m['U'] += m['S'];
-            break;
-        case 'P':
-            m['P'] += m['U'];
-            break;
-        }
+        ll x, y;
+        SCANLL(x);
+        SCANLL(y);
+        tracker[x]++;
+        tracker[y + 1]--;
+        if (x > y)
+            tracker[1]++;
     }
-    PRINTINT(m['R']);
+    ll count = 0;
+    FORI(i, 1, n)
+    {
+        tracker[i] += tracker[i - 1];
+        if (tracker[i] > 1)
+            count++;
+    }
+    PRINTLL(count);
     PRINTEND;
 }
