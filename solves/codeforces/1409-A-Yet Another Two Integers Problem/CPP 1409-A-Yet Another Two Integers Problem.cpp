@@ -52,9 +52,12 @@ int main()
         ll a, b;
         SCANLL(a);
         SCANLL(b);
-
-        ll t = (max(a, b) - min(a, b)) / 10;
-        PRINTLL(t % 10 > 0 ? t + 1 : t);
+        if (a > b)
+            swap(a, b);
+        ll sum = (b - a) / 10;
+        if ((b - a) % 10 > 0)
+            sum++;
+        PRINTLL(sum);
         PRINTEND;
     }
 }
