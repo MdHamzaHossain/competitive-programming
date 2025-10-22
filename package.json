@@ -1,7 +1,7 @@
 {
-  "name": "tophquestions",
+  "name": "competitive-programming",
   "version": "0.0.1",
-  "description": "My solutions for toph questions",
+  "description": "My solutions for every competitive questions I have solved across various platforms",
   "main": "dist/index.ts",
   "dependencies": {
     "dotenv": "^16.4.7",
@@ -35,13 +35,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MdHamzaHossain/Toph.git"
+    "url": "git+https://github.com/MdHamzaHossain/competitive-programming.git"
   },
   "author": "MdHamzaHossain",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/MdHamzaHossain/Toph/issues"
+    "url": "https://github.com/MdHamzaHossain/competitive-programming/issues"
   },
-  "homepage": "https://github.com/MdHamzaHossain/Toph#readme",
+  "homepage": "https://github.com/MdHamzaHossain/competitive-programming#readme",
   "type": "module"
 }
