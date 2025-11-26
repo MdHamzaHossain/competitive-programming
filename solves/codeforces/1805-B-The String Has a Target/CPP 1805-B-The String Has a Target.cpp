@@ -107,7 +107,7 @@ int main()
         SCANLL(n);
         string s1;
         cin >> s1;
-        char smallest = s1[0];
+        char smallest = s1[n - 1];
         ll smallestInd = n - 1;
         RFORN(i, n - 1, -1)
         {
@@ -118,7 +118,7 @@ int main()
             }
         }
 
-        // cout << "DEB " << c << endl;
+        // cout << "DEB " << smallest << " " << smallestInd << endl;
         s1.erase(s1.begin() + smallestInd);
         s1.insert(s1.begin(), smallest);
         cout << s1;

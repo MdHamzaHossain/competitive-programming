@@ -13,4 +13,4 @@
 
 ## __COMMENTS__
 
-> 
+>  Just loop from reverse, find the index of the last occurring smallest char.  Erase it. insert that character at the beginning  
