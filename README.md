@@ -42,8 +42,8 @@ npm run addentry
 
 |               Platform              | Total Submissions | Total Unique Solved |
 | :---------------------------------: | :---------------: | :-----------------: |
-| [codeforces](<./solves/codeforces>) |        372        |         357         |
-|   [leetcode](<./solves/leetcode>)   |        376        |         367         |
+| [codeforces](<./solves/codeforces>) |        373        |         358         |
+|   [leetcode](<./solves/leetcode>)   |        377        |         368         |
 |       [toph](<./solves/toph>)       |        426        |         230         |
 
 ### Per Language
@@ -51,7 +51,7 @@ npm run addentry
 |       Language      | Solves |
 | :-----------------: | :----: |
 |          c          |   32   |
-|         cpp         |   922  |
+|         cpp         |   924  |
 |          go         |   20   |
 |         java        |   20   |
 |          js         |   67   |
@@ -60,5 +60,5 @@ npm run addentry
 |          py         |   46   |
 |          rs         |   17   |
 |        swift        |   16   |
-|  Total submissions  |  1174  |
-| Total unique solved |   954  |
+|  Total submissions  |  1176  |
+| Total unique solved |   956  |
