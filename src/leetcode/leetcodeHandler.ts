@@ -4,6 +4,7 @@ import * as fsp from "fs/promises";
 import readline from "node:readline/promises";
 import { gql, request } from "graphql-request";
 import { leetcodeCacher } from "./leetcodeCacher.js";
+import { leetCodeSelectProblemGraphQl } from "./leetcodeQueries/leetcodeSearchByTitle.js";
 
 export interface LeetcodeQuestion {
     difficulty: string;
@@ -71,72 +72,7 @@ export async function fetchLeetcodeData(): Promise<LeetcodeQuestion[] | undefine
 export async function fetchSingleLeetcodeProblem(probTitle: string): Promise<LeetcodeQuestion | undefined> {
     const prob = await request(
         "https://leetcode.com/graphql",
-        gql`
-            query selectProblem($titleSlug: String!) {
-                question(titleSlug: $titleSlug) {
-                    questionId
-                    questionFrontendId
-                    boundTopicId
-                    title
-                    titleSlug
-                    content
-                    translatedTitle
-                    translatedContent
-                    isPaidOnly
-                    difficulty
-                    likes
-                    dislikes
-                    isLiked
-                    similarQuestions
-                    exampleTestcases
-                    contributors {
-                        username
-                        profileUrl
-                        avatarUrl
-                    }
-                    topicTags {
-                        name
-                        slug
-                        translatedName
-                    }
-                    companyTagStats
-                    codeSnippets {
-                        lang
-                        langSlug
-                        code
-                    }
-                    stats
-                    hints
-                    solution {
-                        id
-                        canSeeDetail
-                        paidOnly
-                        hasVideoSolution
-                        paidOnlyVideo
-                    }
-                    status
-                    sampleTestCase
-                    metaData
-                    judgerAvailable
-                    judgeType
-                    mysqlSchemas
-                    enableRunCode
-                    enableTestMode
-                    enableDebugger
-                    envInfo
-                    libraryUrl
-                    adminUrl
-                    challengeQuestion {
-                        id
-                        date
-                        incompleteChallengeCount
-                        streakCount
-                        type
-                    }
-                    note
-                }
-            }
-        `,
+        leetCodeSelectProblemGraphQl,
         { titleSlug: probTitle },
     )
         // eslint-disable-next-line @typescript-eslint/ban-ts-comment
