@@ -66,7 +66,90 @@ export async function fetchLeetcodeData(): Promise<LeetcodeQuestion[] | undefine
     if (problems) problemsCache = problems;
     return problems;
 }
+export async function fetchSingleLeetcodeProblem(probTitle: string): Promise<LeetcodeQuestion | undefined> {
+    const prob = await request(
+        "https://leetcode.com/graphql",
+        gql`
+            query selectProblem($titleSlug: String!) {
+                question(titleSlug: $titleSlug) {
+                    questionId
+                    questionFrontendId
+                    boundTopicId
+                    title
+                    titleSlug
+                    content
+                    translatedTitle
+                    translatedContent
+                    isPaidOnly
+                    difficulty
+                    likes
+                    dislikes
+                    isLiked
+                    similarQuestions
+                    exampleTestcases
+                    contributors {
+                        username
+                        profileUrl
+                        avatarUrl
+                    }
+                    topicTags {
+                        name
+                        slug
+                        translatedName
+                    }
+                    companyTagStats
+                    codeSnippets {
+                        lang
+                        langSlug
+                        code
+                    }
+                    stats
+                    hints
+                    solution {
+                        id
+                        canSeeDetail
+                        paidOnly
+                        hasVideoSolution
+                        paidOnlyVideo
+                    }
+                    status
+                    sampleTestCase
+                    metaData
+                    judgerAvailable
+                    judgeType
+                    mysqlSchemas
+                    enableRunCode
+                    enableTestMode
+                    enableDebugger
+                    envInfo
+                    libraryUrl
+                    adminUrl
+                    challengeQuestion {
+                        id
+                        date
+                        incompleteChallengeCount
+                        streakCount
+                        type
+                    }
+                    note
+                }
+            }
+        `,
+        { titleSlug: probTitle },
+    )
+        // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+        // @ts-ignore
+        .then((a) => a?.["question"])
+        .catch(() => undefined);
 
+    console.log(prob);
+    if (prob) {
+        prob.frontendQuestionId = prob.questionFrontendId;
+        problemsCache?.push(prob);
+        console.log(`PUSHED ${prob.titleSlug} to cache, now size: ${problemsCache?.length}`);
+    }
+    return prob;
+}
 export async function handleLeetcode(url: string, r1: readline.Interface) {
     let listOfExt = supportedLanguages;
     const pathToLeetcode = join(process.cwd(), "solves", "leetcode");
@@ -75,7 +158,8 @@ export async function handleLeetcode(url: string, r1: readline.Interface) {
     const problems = await fetchLeetcodeData().catch(() => undefined);
     if (!problems) throw new Error("Problem fetching codeforces data");
 
-    const foundProblem = problems.find((a) => problemSlug === a.titleSlug);
+    const foundProblem =
+        problems.find((a) => problemSlug === a.titleSlug) ?? (await fetchSingleLeetcodeProblem(problemSlug));
     if (!foundProblem) throw new Error("This problem has no entry");
 
     const formattedTitle = `${foundProblem.frontendQuestionId}_${foundProblem.titleSlug}`;

@@ -1,4 +1,4 @@
-# [3454_separate-squares-ii](https://leetcode.com/problems/separate-squares-ii)
+# [3454_separate-squares-ii](https://leetcode.com/problems/separate-squares-ii/)
 
 ## Info
 
@@ -11,8 +11,8 @@ Hard
 - Array
 - Binary Search
 - Segment Tree
-- Line Sweep
+- Sweep Line
 
 ## __COMMENTS__
 
-> 
+>
