@@ -3,6 +3,7 @@ import { supportedLanguages } from "../config.js";
 import * as fsp from "fs/promises";
 import readline from "node:readline/promises";
 import { gql, request } from "graphql-request";
+import { leetcodeCacher } from "./leetcodeCacher.js";
 
 export interface LeetcodeQuestion {
     difficulty: string;
@@ -25,6 +26,7 @@ export interface CodeforcesProblemInterface {
 }
 let problemsCache: LeetcodeQuestion[] | undefined = undefined;
 export async function fetchLeetcodeData(): Promise<LeetcodeQuestion[] | undefined> {
+    problemsCache = await leetcodeCacher(0);
     if (problemsCache) {
         return problemsCache;
     }
