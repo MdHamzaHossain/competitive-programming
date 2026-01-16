@@ -4,14 +4,14 @@
   "description": "My solutions for every competitive questions I have solved across various platforms",
   "main": "dist/index.ts",
   "dependencies": {
-    "dotenv": "^16.4.7",
-    "fast-glob": "^3.3.2",
-    "graphql": "^16.10.0",
-    "graphql-request": "^7.1.2",
+    "dotenv": "^17.2.3",
+    "fast-glob": "^3.3.3",
+    "graphql": "^16.12.0",
+    "graphql-request": "^7.4.0",
     "husky": "^9.1.7",
     "markdown-table": "^3.0.4",
-    "typescript": "^5.7.2",
-    "yargs": "^17.7.2"
+    "typescript": "^5.9.3",
+    "yargs": "^18.0.0"
   },
   "scripts": {
     "tsc": "tsc",
@@ -20,18 +20,18 @@
     "prepare": "husky"
   },
   "devDependencies": {
-    "@eslint/eslintrc": "^3.2.0",
-    "@eslint/js": "^9.17.0",
-    "@stylistic/eslint-plugin-ts": "^2.12.1",
-    "@types/node": "^22.10.2",
-    "@types/yargs": "^17.0.33",
-    "@typescript-eslint/eslint-plugin": "^8.18.1",
-    "@typescript-eslint/parser": "^8.18.1",
-    "eslint": "^9.17.0",
-    "eslint-config-prettier": "^9.1.0",
-    "eslint-plugin-prettier": "^5.2.1",
-    "globals": "^15.14.0",
-    "prettier": "^3.4.2"
+    "@eslint/eslintrc": "^3.3.3",
+    "@eslint/js": "^9.39.2",
+    "@stylistic/eslint-plugin-ts": "^4.4.1",
+    "@types/node": "^25.0.9",
+    "@types/yargs": "^17.0.35",
+    "@typescript-eslint/eslint-plugin": "^8.53.0",
+    "@typescript-eslint/parser": "^8.53.0",
+    "eslint": "^9.39.2",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-prettier": "^5.5.5",
+    "globals": "^17.0.0",
+    "prettier": "^3.8.0"
   },
   "repository": {
     "type": "git",
