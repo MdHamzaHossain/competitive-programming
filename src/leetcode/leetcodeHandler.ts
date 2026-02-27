@@ -94,7 +94,7 @@ export async function handleLeetcode(url: string, r1: readline.Interface) {
     const { problemSlug } = url.match(/(?:problems\/(?<problemSlug>[^/]+))/)?.groups || {};
 
     const problems = await fetchLeetcodeData().catch(() => undefined);
-    if (!problems) throw new Error("Problem fetching codeforces data");
+    if (!problems) throw new Error("Problem fetching leetcode data");
 
     const foundProblem =
         problems.find((a) => problemSlug === a.titleSlug) ?? (await fetchSingleLeetcodeProblem(problemSlug));
