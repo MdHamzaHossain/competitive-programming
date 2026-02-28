@@ -31,7 +31,14 @@ interface problemsetQuestionListV2 {
 let cache: LeetcodeQuestion[] = [];
 async function fetchLeetcodeProblems(limit: number, skip: number): Promise<problemsetQuestionListV2 | undefined> {
     return (
-        request("https://leetcode.com/graphql", leetcodeProblemSetQuestionListV2GraphQl, { skip, limit })
+        request(
+            "https://leetcode.com/graphql",
+            leetcodeProblemSetQuestionListV2GraphQl,
+            { skip, limit },
+            {
+                Referer: "https://leetcode.com/problemset/",
+            },
+        )
             // eslint-disable-next-line @typescript-eslint/ban-ts-comment
             // @ts-ignore
             .then((a) => a?.["problemsetQuestionListV2"])
