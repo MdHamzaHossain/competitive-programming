@@ -1,10 +1,10 @@
 # Competitive Programming Solutions
 
-## What is this?
+## What this is
 
-A documentation of all the solutions I have made for every problem using multiple different languages.\
+A documentation of all the solutions I have submitted for every problem using multiple different languages.\
 This also has a script which creates the folders, a template README.md and each file for each language I solved in. The
-content of which is to be manual input.
+content of which is to be manual inserted.
 
 ### Account Handles
 
