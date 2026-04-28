@@ -13,6 +13,6 @@ Medium
 - Sorting
 - Matrix
 
-## __COMMENTS__
+## **COMMENTS**
 
-> 
+> flatten the grid, to sort it, find the sum of the absolute differences
