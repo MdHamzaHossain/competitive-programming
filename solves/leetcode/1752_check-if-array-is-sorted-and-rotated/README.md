@@ -10,6 +10,6 @@ Easy
 
 - Array
 
-## __COMMENTS__
+## **COMMENTS**
 
-> 
+> count the amount of unsorted elements in a circular chain. if it's more than 1, return false
