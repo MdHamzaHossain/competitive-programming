@@ -8,8 +8,6 @@ Easy
 
 ### Tags
 
+## **COMMENTS**
 
-
-## __COMMENTS__
-
-> 
+> Just nested triple loop it and find combinations that match. put them in a set and get the set's size
