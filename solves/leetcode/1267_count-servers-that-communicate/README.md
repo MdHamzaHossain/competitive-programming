@@ -15,6 +15,6 @@ Medium
 - Matrix
 - Counting
 
-## __COMMENTS__
+## **COMMENTS**
 
-> 
+> count servers in each row and column. then count every server where the row count or the colun count > 1.
