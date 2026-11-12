@@ -10,6 +10,7 @@ Easy
 
 - Array
 
-## __COMMENTS__
+## **COMMENTS**
 
-> use signum, if it's 0, 1 element will be the amount, if not, 2, store the matched signum, see if it matches the next signum, if it does, increase the amount
+> use signum, if it's 0 then, 1 element will be the amount, if not, 2, store the matched signum, see if it matches the
+> next signum, if it does, increase the amount
