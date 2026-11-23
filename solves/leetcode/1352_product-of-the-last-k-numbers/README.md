@@ -14,6 +14,7 @@ Medium
 - Data Stream
 - Prefix Sum
 
-## __COMMENTS__
+## **COMMENTS**
 
->
+> .getProduct = function(k) { return this.nums.slice(this.nums.length - k, this.nums.length).reduce((acc, curr) => acc *
+> curr, 1) };

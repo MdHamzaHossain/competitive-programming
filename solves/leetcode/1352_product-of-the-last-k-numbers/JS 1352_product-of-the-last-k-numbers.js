@@ -1,6 +1,4 @@
-
-var ProductOfNumbers = function()
-{
+var ProductOfNumbers = function () {
     this.nums = [];
 };
 
@@ -8,8 +6,7 @@ var ProductOfNumbers = function()
  * @param {number} num
  * @return {void}
  */
-ProductOfNumbers.prototype.add = function(num)
-{
+ProductOfNumbers.prototype.add = function (num) {
     this.nums.push(num);
 };
 
@@ -17,8 +14,9 @@ ProductOfNumbers.prototype.add = function(num)
  * @param {number} k
  * @return {number}
  */
-ProductOfNumbers.prototype.getProduct = function(k){
-    return this.nums.slice(this.nums.length - k, this.nums.length).reduce((acc, curr) = > acc * curr, 1)};
+ProductOfNumbers.prototype.getProduct = function (k) {
+    return this.nums.slice(this.nums.length - k, this.nums.length).reduce((acc, curr) => acc * curr, 1);
+};
 
 /**
  * Your ProductOfNumbers object will be instantiated and called as such:
